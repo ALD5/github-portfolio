@@ -42,7 +42,6 @@ hr {
 
 /* start image */
 .header__banner {
-    width: 100%; /* making it so image adjusts its size to window resolution */
     font-size: 32px;
     color: rgb(241, 166, 53);
     display: flex;
@@ -51,12 +50,20 @@ hr {
     align-items: center;
 }
 
+.header__banner img.hero {
+    width: 100%; /* UPDATE 29.2.2024: Adjusts image size in relation to window size */
+}
+
 /* end image */
 .footnote__banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.footnote__banner img.hero {
+    width: 100%; /* UPDATE 29.2.2024: Adjusts image size in relation to window size */
 }
 
 /* PORTFOLIO */
