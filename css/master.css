@@ -42,6 +42,7 @@ hr {
 
 /* start image */
 .header__banner {
+    width: 100%; /* making it so image adjusts its size to window resolution */
     font-size: 32px;
     color: rgb(241, 166, 53);
     display: flex;
